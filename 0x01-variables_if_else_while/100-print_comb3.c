@@ -9,13 +9,12 @@
 int main(void)
 
 {
-
 	int d, p;
 
 	for (d = '0'; d < '9'; d++)
 	{
-		
-	for (d = d + 1; p <= '9'; p++)
+
+	for (p = d + 1; p <= '9'; p++)
 	{
 	if (p != d)
 	{
@@ -30,5 +29,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}
-	
+}	
