@@ -5,16 +5,18 @@
  * Return: 0
  */
 
+
 int main(void)
+
 {
 	int i;
 
-	printf("infinite loop incoming :(\n");
-	i = 0;
-	/*while (i < 10)*/
+        printf("Infinite loop incoming :(\n");
+        i = 0;
+        /*while (i < 10)*/
 	/*{*/
 	/*	putchar(i);*/
 	/*}*/
-	printf("Infinite loop avoided! \\o/\n");
+	printf("Infinite loop voided! \\o/n");
 	return (0);
 }
