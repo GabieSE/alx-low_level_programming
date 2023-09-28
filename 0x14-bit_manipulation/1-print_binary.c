@@ -12,7 +12,7 @@ void print_binary(unsigned long int n)
 
 	unsigned long int temp;
 
-	for (x = 65; x >= 0; x--)
+	for (x = 63; x >= 0; x--)
 	{
 		temp = n >> x;
 
